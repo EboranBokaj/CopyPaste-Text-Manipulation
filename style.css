@@ -1,0 +1,114 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    width: 500px;
+    height: 220px;
+    background-color: #333333;
+}
+header{
+    background-color: #1f1f1f;
+    width: 100vw;
+    padding: 10px;
+}
+h1{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-style: italic;
+}
+h1, p:hover{
+    cursor:default;
+}
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+}
+#commands{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+
+}
+.comand-buttons{
+    height: 30px;
+    width: 110px;
+    background-color: rgba(130, 65, 181, 1);
+}
+textarea{
+    width: 100%;
+    resize: none;
+    color: black;
+    background-color:ivory;
+    transition: 0.3s;
+}
+#actions{
+    height: 220px;
+    width: 150px;
+    margin: -10px;
+    padding: 10px;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #161616;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(181, 65, 65, 1);  
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255, 0);
+    border: 2px solid rgb(207, 207, 207);
+}
+a{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.3s;
+    opacity: 1;
+    background-color: rgba(255,255,255, 0.05);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(181, 65, 65, 1);
+    padding: 3px;
+    cursor: pointer;
+}
+a p {
+    color: rgba(181, 65, 65, 1);
+    cursor: pointer !important;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+a:hover{
+    opacity: 0.6;
+}

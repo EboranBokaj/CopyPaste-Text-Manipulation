@@ -1,0 +1,22 @@
+{
+    "name": "CopyPaste Text Manipulation",
+    "version": "1.0.0",
+    "description": "This extension helps you to manipulate copyed text before you paste it.",
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/CopyPasteText-ChromeExtensionLOGO16.png",
+        "32": "images/CopyPasteText-ChromeExtensionLOGO32.png",
+        "48": "images/CopyPasteText-ChromeExtensionLOGO48.png",
+        "128": "images/CopyPasteText-ChromeExtensionLOGO128.png"
+      }
+    },
+    "icons": {
+      "16": "images/CopyPasteText-ChromeExtensionLOGO16.png",
+      "32": "images/CopyPasteText-ChromeExtensionLOGO32.png",
+      "48": "images/CopyPasteText-ChromeExtensionLOGO48.png",
+      "128": "images/CopyPasteText-ChromeExtensionLOGO128.png"
+    },
+    "permissions": ["activeTab", "clipboardWrite", "clipboardRead"],
+    "manifest_version": 2
+  }
